@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Nala Networks Inc 
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to support@nalanetworks.com so we can send you a copy immediately.
+ *
+ * @category   Nala 
+ * @package    Nala_KayakoLoginShare 
+ * @copyright  Copyright (c) 2014 Nala Networks Inc (http://www.nalanetworks.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */ 
+ 
+/**
+ * Magento Kayako Login Share Module
+ */
+-->
+<config>
+
+	<modules>
+		<Nala_KayakoLoginShare>
+			<version>1.6.0.0</version>
+		</Nala_KayakoLoginShare>
+	</modules>
+
+	<global>
+		<helpers>
+			<nala_loginshare>
+				<class>Nala_KayakoLoginShare_Helper</class>
+			</nala_loginshare>
+		</helpers>
+
+		<blocks>
+			<nala_loginshare>
+				<class>Nala_KayakoLoginShare_Block</class>
+			</nala_loginshare>
+		</blocks>
+	</global>
+
+	<frontend>
+		<routers>
+			<nala_loginshare>
+				<use>standard</use>
+				<args>
+					<module>Nala_KayakoLoginShare</module>
+					<frontName>xlogin</frontName>
+				</args>
+			</nala_loginshare>
+		</routers>
+	</frontend>
+
+	<default>
+		<customer>
+			<account_share>
+				<kayako_login_share>1</kayako_login_share>
+				<kayako_login_share_test>1</kayako_login_share_test>
+			</account_share>
+		</customer>
+	</default>
+</config>

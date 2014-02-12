@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nala_KayakoLoginShare</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Magento LoginShare module lets users access Kayako Help Desk by using a Magento username and password</summary>
+    <description>Nala Networks' new Magento LoginShare for Kayako module can be used to integrate Kayako's Help Desk software with your Magento customer base. With this integration, users can log into Kayako's Help Desk by using a Magento e-mail address and password. &#xD;
+&#xD;
+Users save time and avoid hassles by logging into Kayako without registering a separate account for Kayako. &#xD;
+&#xD;
+Features &#xD;
+-----------&#xD;
+- Allows Magento users to log into the Kayako support system using a Magento user e-mail and password&#xD;
+- The module features a LoginShare test url for testing the user login and password with Magento; this feature is customizable and can be enabled or disabled from the admin interface&#xD;
+- Can be configured to allow either global scope, or only a specified web site&#xD;
+- 100% open source code&#xD;
+- Meets or exceeds current best-practices Magento programming standards for most versions, and is compatible for most customizations&#xD;
+- Supports Magento CE v1.5 through v1.8&#xD;
+- Supports Magento EE v1.9 through v1.13&#xD;
+- Quick, easy installation, typically within 2 minutes&#xD;
+</description>
+    <notes>First stable release of Nala_KayakoLoginShare. &#x2022;	For support from highly-experienced staff is available by submitting a ticket at  http://support.nalanetworks.com</notes>
+    <authors><author><name>Sutha Kathir</name><user>nalanetworks</user><email>sutha@nalanetworks.com</email></author></authors>
+    <date>2014-02-10</date>
+    <time>11:21:45</time>
+    <contents><target name="magecommunity"><dir name="Nala"><dir name="KayakoLoginShare"><dir name="Block"><file name="Login.php" hash="59c1b5f35d5ededc6132a97e38613a9d"/></dir><dir name="Helper"><file name="Data.php" hash="536df14c939c75a92504cd7d3f89e1f4"/></dir><dir name="controllers"><file name="IndexController.php" hash="ba0a4a4490b06789181efd3c2ae952df"/></dir><dir name="etc"><file name="config.xml" hash="eca52158c1222f587c319bd302d77260"/><file name="system.xml" hash="44b77c1fe3c6c4848ad7597b6b0d5824"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Nala_KayakoLoginShare.xml" hash="fea1f74b9048228868d5dbe7d1f6abf5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
